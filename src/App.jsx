@@ -1,4 +1,5 @@
 import Home from './pages/home'
+import Gigs from './pages/gigs'
 import Header from "./components/Header"
 import Footer from './components/Footer'
 
@@ -28,6 +29,10 @@ export default function App() {
         {
           path: '/',
           element: <Home />
+        },
+        {
+          path: '/gigs/',
+          element: <Gigs />
         }
       ]
     }
