@@ -73,6 +73,7 @@ export const Header = styled.header`
         }
 
         .sub-nav {
+            width: 100%;
             display: flex;
             color: #d6d6d6;
             font-weight: 400;
