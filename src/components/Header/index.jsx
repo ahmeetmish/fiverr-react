@@ -43,7 +43,7 @@ export default function Header() {
                 <Link to='/'>Explore</Link>
                 <Link to='/'>English</Link>
                 {!currentUser?.isSeller && <Link to='/'>Become a Seller</Link>}
-                <Link to='/'>Sign In</Link>
+                {!currentUser && <Link to='/'>Sign In</Link>}
                 <span> | </span>
                 {!currentUser && <button>Join</button>}
                 {currentUser && (
