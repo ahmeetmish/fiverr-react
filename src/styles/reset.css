@@ -65,6 +65,14 @@ picture {
 input, button,
 textarea, select {
   font: inherit;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  outline: none;
+  color: inherit;
+  background: none;
 }
 
 /* Make sure textareas without a rows attribute are not tiny */

@@ -4,6 +4,11 @@
     font-weight: 400;
     font-family: 'Inter', sans-serif;
 
-    color: #FFF;
-    background-color: #191919;
+    color: #191919;
+    background-color: #FFF;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
 }
