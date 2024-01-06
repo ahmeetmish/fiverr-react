@@ -65,10 +65,10 @@ picture {
 input, button,
 textarea, select {
   font: inherit;
-  cursor: pointer;
 }
 
 button {
+  cursor: pointer;
   border: none;
   outline: none;
   color: inherit;
