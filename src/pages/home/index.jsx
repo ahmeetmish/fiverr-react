@@ -4,6 +4,7 @@ import Hero from '../../components/Hero'
 import TrustedBy from '../../components/TrustedBy'
 import Slide from '../../components/Slide'
 import ServiceCard from '../../components/ServiceCard'
+import Features from '../../components/Features'
 
 import { Cards } from '../../data'
 
@@ -17,6 +18,7 @@ export default function Home() {
           <ServiceCard item={card} key={card.id} />
         ))}
       </Slide>
+      <Features />
     </S.Home>
   )
 }
