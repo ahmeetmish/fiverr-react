@@ -76,7 +76,7 @@ export const Header = styled.header`
         .sub-nav {
             width: 100%;
             display: flex;
-            color: #d6d6d6;
+            color: #c0c0c0;
             font-weight: 400;
             align-items: center;
             padding: 12px 0 0 0;
