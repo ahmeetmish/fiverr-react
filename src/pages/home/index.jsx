@@ -6,8 +6,9 @@ import Slide from '../../components/Slide'
 import ServiceCard from '../../components/ServiceCard'
 import Features from '../../components/Features'
 import SignUpBoard from '../../components/SignUpBoard'
+import ProjectCard from '../../components/ProjectCard'
 
-import { Cards } from '../../data'
+import { Cards, Projects } from '../../data'
 
 export default function Home() {
   return (
@@ -21,6 +22,11 @@ export default function Home() {
       </Slide>
       <Features />
       <SignUpBoard />
+      <Slide slidesToShow={4} arrowScroll={4} title='Inspiring work made on Fiverr'>
+        {Projects.map(project => (
+          <ProjectCard item={project} key={project.id} />
+        ))}
+      </Slide>
     </S.Home>
   )
 }
