@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const SignUpBoard = styled.div`
     color: #FFF;
-    padding: 80px 0;
+    padding: 80px 0 0 0;
 
     .container {
         display: flex;
