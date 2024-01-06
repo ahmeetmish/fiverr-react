@@ -3,9 +3,9 @@ import * as S from './styled'
 import SearchIcon from '../../assets/search-icon.svg'
 import FeaturedChar from '../../assets/featured-char.png'
 
-export default function Featured() {
+export default function Hero() {
   return (
-    <S.Featured>
+    <S.Hero>
         <div className="container">
         <div className="content">
             <h2>Find the right <span>freelance</span> <br />
@@ -36,6 +36,6 @@ export default function Featured() {
             </div>
         </div>
         </div>
-    </S.Featured>
+    </S.Hero>
   )
 }

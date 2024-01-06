@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Featured = styled.div`
+export const Hero = styled.div`
     background-color: #013914;
 
     .container {
