@@ -5,6 +5,7 @@ import TrustedBy from '../../components/TrustedBy'
 import Slide from '../../components/Slide'
 import ServiceCard from '../../components/ServiceCard'
 import Features from '../../components/Features'
+import SignUpBoard from '../../components/SignUpBoard'
 
 import { Cards } from '../../data'
 
@@ -19,6 +20,7 @@ export default function Home() {
         ))}
       </Slide>
       <Features />
+      <SignUpBoard />
     </S.Home>
   )
 }
