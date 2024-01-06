@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Header = styled.header`
     top: 0;
+    z-index: 999;
     color: #FFF;
     padding: 20px 0;
     position: sticky;
